@@ -33,6 +33,10 @@ public class Reverse {
     public  static String  Reverse(String str) {
 
         return new StringBuffer(str).reverse().toString();
+        //StringBuffer(str) --> this converts string to stringBuffer
+        // or new stringBuilder also same
+        // will reverse StringBuffer object
+        //.toString() convert back to string again
 
     }
 }

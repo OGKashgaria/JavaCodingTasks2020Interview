@@ -7,7 +7,7 @@ public class PasswordValidationTask {
 
     requirements:
 
-            1. Password MUST be at least have 6 characters and should not contain space
+1. Password MUST be at least have 6 characters and should not contain space
 
 2. PassWord should at least contain one upper case letter
 
@@ -16,6 +16,7 @@ public class PasswordValidationTask {
 4. Password should at least contain one special characters
 
 5. Password should at least contain a digit
+
 if all requirements above are met, the method returns true, otherwise returns  false
 
      */
@@ -26,7 +27,7 @@ if all requirements above are met, the method returns true, otherwise returns  f
 
    // Solution 1:
 
-    public static boolean PassWordvalidation(String password) {
+    public static boolean passWordvalidation(String password) {
 
         String lowercase="(.*[a-z].*)";
 

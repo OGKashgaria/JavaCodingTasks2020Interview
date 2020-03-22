@@ -63,7 +63,10 @@ public class FrequencyOfChar {
                 }
             }
             expectedResult +=str.charAt(j)+"" + count;
-          //  str = str.replace(""+str.charAt(j) ,  "" );
+            //after we added str.charAt(j) to the expectedResult,
+            // we need to replace it with empty string, because we don't want to count it again
+            str = str.replace(""+str.charAt(j) ,  "" );
+            //so we replaced the one we already counted to the empty string
         }
         return expectedResult;
     }
@@ -71,12 +74,35 @@ public class FrequencyOfChar {
    // Solution 3:
 
     public  static  String  FrequencyOfChars3(String str) {
-        String b=new LinkedHashSet<>(Arrays.asList(str.split(""))).toString();
+        //Any set implementations Not allowed duplicates
+
+        String b =new LinkedHashSet<>(Arrays.asList(str.split(""))).toString();
+        //System.out.println(b); //-- > [A, B, C, D]
+
+        //str.split("") --> we split the string with space to chars
+        //Arrays.asList(str.split("")) --> we added all the chars to array as a list
+       // LinkedHashSet<>(Arrays.asList(str.split(""))) --> we stored arrays to LinkedHashSet
+        //LinkedHashSet does not accept duplicates
+        //.toString() then we  converted LinkedHashSet to string again
+        //String b =new at end we assigned it to new string variable b
+
         b = b.replace(", ","").replace("[","").replace("]","");
+        //System.out.println(b); //-- > [A, B, C, D]
+        //after this method b = b.replace(", ","") --> //System.out.println(b); //-- > [A B C D]
+        // all gives same result
+//        b = b.replace(",","").replace("[","").replace("]","");
+//        System.out.println(b + "\n ------------");
+//        b = b.replace(",","").replace("[","").replace("]","").stripLeading();
+//        System.out.println(b);
+
         String result="";
+        //created a empty string to store the represented unique character and its occurrence times
         for(int j=0; j<b.length();j++) {
+            //loop through each index of element from b , for comparing with each index of original string str
             int times=0;
+            // times to strong occurrence of time in the original string of each index of element
             for(int i=0; i<str.length(); i++)
+                // same way loop through each index element from str
                 if(str.substring(i, i+1).equals(""+str.charAt(j)))
                     times++;
             result+=b.substring(j, j+1)+times;
@@ -87,12 +113,17 @@ public class FrequencyOfChar {
     //Solutions 4:
     public static String frequency4(String str) {
         String nonDup="", result="";
+        //remove duplicates first, and store it to new string  nonDup
         for(int i=0; i < str.length(); i++)
             if(! nonDup.contains(""+str.charAt(i)))
+                //if nonDup does not contain str.charAt(i) element, add it to nonDup by loop through
                 nonDup += ""+str.charAt(i);
         for(int i=0; i < nonDup.length(); i++) {
+            //loop through nonDup string
             int num = Collections.frequency( Arrays.asList(str.split("") ) ,    ""+nonDup.charAt( i ) );
+            // use Collections.frequency(), and count its occurrence in the original string str
             result += ""+nonDup.charAt(i) + num;
+            //then add nonDup.charAt(i) to result string with adding its occurrence times next to it
         }
         return result;
     }
