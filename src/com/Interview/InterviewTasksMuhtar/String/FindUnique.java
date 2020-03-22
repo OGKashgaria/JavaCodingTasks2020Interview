@@ -17,6 +17,7 @@ public class FindUnique {
     //Solution 1:
     //created a method with return type is string, and parameter is string
     public static String unique(String str) {
+<<<<<<< HEAD
     //created a empty string array to store char characters after split
         String[] arr=str.split("");
     // create a empty string to store unique characters
@@ -28,6 +29,11 @@ public class FindUnique {
         // then will compare with first character
         for(int j=0; j<arr.length; j++) {
         //created an int num to count occurrence time of each character
+=======
+        String[ ] arr=str.split("");
+        String unique1="";
+        for(int j=0; j<arr.length; j++) {
+>>>>>>> origin/master
             int num=0;
 
             for(int i=0; i<arr.length; i++ ) {
