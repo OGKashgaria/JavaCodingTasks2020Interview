@@ -6,6 +6,7 @@ public class ArmStrongNumber {
     Write a method that can check if a number is Armstrong  number
      */
     public static void main(String[] args) {
+        System.out.println(ArmStrongNumber(10));
 
     }
    // Solution:
