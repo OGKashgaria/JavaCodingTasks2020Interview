@@ -7,6 +7,12 @@ public class SumOfDigitsInAString {
      */
     public static void main(String[] args) {
 
+        int total =  sumOfDigits("");
+      //  sumOfDigits("");
+        System.out.println(total);
+        System.out.println(sumOfDigits("12acn3d"));
+        System.out.println(sumOfDigits("1234"));
+
     }
 
 
@@ -19,12 +25,14 @@ public class SumOfDigitsInAString {
         int total = 0;
 
         char[] ch =  s.toCharArray();
+        char[] ch1 = {1, 2, 3, 4};
 
         for(char each: ch) {
 
             if(Character.isDigit(each)) {
 
                 total += Integer.valueOf(""+each);
+
 
             }
 

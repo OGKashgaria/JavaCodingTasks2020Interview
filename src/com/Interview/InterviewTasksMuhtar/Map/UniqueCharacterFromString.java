@@ -1,7 +1,6 @@
 package com.Interview.InterviewTasksMuhtar.Map;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class UniqueCharacterFromString {
     public static void main(String[] args) {
@@ -23,4 +22,6 @@ public class UniqueCharacterFromString {
         System.out.println(unique);
 
     }
+
+
 }

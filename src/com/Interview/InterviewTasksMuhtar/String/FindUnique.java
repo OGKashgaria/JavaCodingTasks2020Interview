@@ -10,50 +10,50 @@ public class FindUnique {
     Ex:  unique("AAABBBCCCDEF")  ==>  "DEF";
      */
     public static void main(String[] args) {
-        System.out.println(unique("AAABBBCCCDEF"));
+     //   System.out.println(unique("AAABBBCCCDEF"));
 
     }
-
-    //Solution 1:
-    //created a method with return type is string, and parameter is string
-    public static String unique(String str) {
-<<<<<<< HEAD
-    //created a empty string array to store char characters after split
-        String[] arr=str.split("");
-    // create a empty string to store unique characters
-        String unique1="";
-    //created a nested loop to check each of character with others of array
-        //loop through following by index order
-        //out loop takes it first character, takes index 0
-        //inner index takes start from first characters to the last
-        // then will compare with first character
-        for(int j=0; j<arr.length; j++) {
-        //created an int num to count occurrence time of each character
-=======
-        String[ ] arr=str.split("");
-        String unique1="";
-        for(int j=0; j<arr.length; j++) {
->>>>>>> origin/master
-            int num=0;
-
-            for(int i=0; i<arr.length; i++ ) {
-                // if character of array at arr[i] equals to character of array at arr[j]
-                if(arr[i].equals(arr[j]) )
-                //increase the num by one each time
-                    num++;
-
-            }
-            // if a character's occurrence equal to 1
-            // because we also compare that character by itself, its occurrence equal to 1
-            if(num==1)
-            // then char of array at arr[j] add to unique1 empty string
-                unique1+=arr[j];
-
-        }
-        // then return unique1
-        return unique1;
-
-    }
+//
+//    //Solution 1:
+//    //created a method with return type is string, and parameter is string
+//    public static String unique(String str) {
+//
+//    //created a empty string array to store char characters after split
+//        String[] arr=str.split("");
+//    // create a empty string to store unique characters
+//        String unique1="";
+//    //created a nested loop to check each of character with others of array
+//        //loop through following by index order
+//        //out loop takes it first character, takes index 0
+//        //inner index takes start from first characters to the last
+//        // then will compare with first character
+//        for(int j=0; j<arr.length; j++) {
+//        //created an int num to count occurrence time of each character
+//
+//        String[ ] arr=str.split("");
+//        String unique1="";
+//        for(int j=0; j<arr.length; j++) {
+//
+//            int num=0;
+//
+//            for(int i=0; i<arr.length; i++ ) {
+//                // if character of array at arr[i] equals to character of array at arr[j]
+//                if(arr[i].equals(arr[j]) )
+//                //increase the num by one each time
+//                    num++;
+//
+//            }
+//            // if a character's occurrence equal to 1
+//            // because we also compare that character by itself, its occurrence equal to 1
+//            if(num==1)
+//            // then char of array at arr[j] add to unique1 empty string
+//                unique1+=arr[j];
+//
+//        }
+//        // then return unique1
+//        return unique1;
+//
+//    }
 
     //Solution 2:
 

@@ -9,7 +9,7 @@ import java.util.LinkedHashSet;
 public class FrequencyOfChar {
     public static void main(String[] args) {
 
-        System.out.println(FrequencyOfChars2("AAABBCDD"));
+        System.out.println(frequency4("ABCddddAAbccCk"));
     }
 
     //solution1:
@@ -112,12 +112,14 @@ public class FrequencyOfChar {
 
     //Solutions 4:
     public static String frequency4(String str) {
+
+        //"aabbbccDDD"
         String nonDup="", result="";
         //remove duplicates first, and store it to new string  nonDup
         for(int i=0; i < str.length(); i++)
             if(! nonDup.contains(""+str.charAt(i)))
                 //if nonDup does not contain str.charAt(i) element, add it to nonDup by loop through
-                nonDup += ""+str.charAt(i);
+                nonDup += ""+str.charAt(i);//"abcD"
         for(int i=0; i < nonDup.length(); i++) {
             //loop through nonDup string
             int num = Collections.frequency( Arrays.asList(str.split("") ) ,    ""+nonDup.charAt( i ) );

@@ -1,0 +1,31 @@
+   // Write the output of below program.
+
+    class A{  
+        private int data=40;  
+        private void msg(){
+            System.out.println("Hello java")}; 
+    }  
+              
+     class Simple{  
+ public static void main(String args[]){  
+   A obj=new A();  
+   System.out.println(obj.data);
+   obj.msg();  
+   }  
+    }  
+
+            //Hello java
+
+            ==============
+    How to find the non repeated character of a given String?
+
+    Ex. str  = “Abcdebacdfabbcdgccdba”;
+
+    O/P - e, f, g
+
+    public sataic String unique(String str){
+
+        LinkedHashSet<String> set = new HashSet<>(Array.toArrays(str.split("").toString());
+    }
+
+=======

@@ -26,6 +26,22 @@ if all requirements above are met, the method returns true, otherwise returns  f
 
 
    // Solution 1:
+    /*
+   Password Validation in Gherkin Language
+
+  Scenario: Password Validation
+    Given the user is on password setting page
+    When the user enters the password at least has with 6 characters
+    And password does not contain any spaces
+    And password has at lease one lowercase
+    And password has at least one uppercase
+    And password has at least one digit
+    And password has at least one special character
+    When the user clicks on the create button on password setting page
+    Then the user should be able to set a password
+    Then password successfully created message is displayed
+
+     */
 
     public static boolean passWordvalidation(String password) {
 
@@ -45,9 +61,9 @@ if all requirements above are met, the method returns true, otherwise returns  f
 
                 HasDigits = password.matches(numbers),
 
-                HasSpecial = password.matches(specialchars),
+                HasSpecial = password.matches(specialchars);
 
-                Valid = false;
+        boolean    Valid = false;
 
         if(password.length() >= 6 && !password.contains(" "))
 

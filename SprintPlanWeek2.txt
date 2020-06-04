@@ -1,0 +1,35 @@
+Sprint  Team Lead: Oghlan Kashgaria
+
+Project Team Lead: Saturday, Sunday,   --> Tumars
+Time: 5 pm --> Eastern Time Zone
+SQL Practice Saturday, Sunday Morning  --> Oghlan
+Time: 10 am--> Eastern Time Zone
+Week Days:
+Time: 8:30 pm -->Start--> Eastern Time Zone
+Monday:--> Selenium--> Mihray
+Tuesday:-->TestNG--> Minewwer
+Wednesday: -->Cucumber -->Tumars
+Thursday:--> JUnit-->Maven -->Bibish
+Friday:-->Jenkins-->Gulperi
+Material:
+
+Week Days:
+Material: Source Facebook Login page
+Everyone needs to create a face email account, and use selenium automation to get a facebook account
+Time: 10:00 am--> Eastern Time Zone
+
+Monday:--> Selenium--> Selenium
+Tuesday:-->TestNG--> Selenium
+Wednesday: -->Cucumber -->Selenium
+Thursday:--> JUnit-->Maven -->Selenium
+Friday:-->Jenkins-->Selenium
+
+Sprint 3 Team Lead: Tumars
+Thursday: Retro,
+Friday: Sprint Planning
+
+
+
+
+
+
