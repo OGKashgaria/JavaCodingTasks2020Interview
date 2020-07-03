@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b4e395e-3876-4f39-81eb-007543a2409a" name="Default Changelist" comment="" />
+    <list default="true" id="9b4e395e-3876-4f39-81eb-007543a2409a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/Interview/Collections/HashMap_Examples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Interview/Collections/Map_Notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Interview/TestPackage/AbstractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Interview/TestPackage/An_Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Interview/TestPackage/RegularClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Interview/TestPackage/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/JavaCodingTasksT/FrequencyOfChar_In_A_String.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +34,12 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
-  <component name="RunManager" selected="Application.Check_Presence_Of_A_Number_in_AnArray">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Interview.InterviewTasksMuhtar.Array" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HashMap_Examples">
     <configuration name="Check_Presence_Of_A_Number_in_AnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewOghlan.Check_Presence_Of_A_Number_in_AnArray" />
       <module name="JavaCodingTasks2020Interview" />
@@ -39,12 +53,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrequencyOfChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewTasksMuhtar.String.FrequencyOfChar" />
+    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewOghlan.FizzBuzz" />
       <module name="JavaCodingTasks2020Interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Interview.InterviewTasksMuhtar.String.*" />
+          <option name="PATTERN" value="com.Interview.InterviewOghlan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -52,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewTasksMuhtar.String.Palindrome" />
+    <configuration name="FrequencyOfChar_In_A_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.JavaCodingTasksT.FrequencyOfChar_In_A_String" />
       <module name="JavaCodingTasks2020Interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Interview.InterviewTasksMuhtar.String.*" />
+          <option name="PATTERN" value="com.JavaCodingTasksT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewTasksMuhtar.String.PalindromeTask" />
+    <configuration name="HashMap_Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Interview.Collections.HashMap_Examples" />
       <module name="JavaCodingTasks2020Interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Interview.InterviewTasksMuhtar.String.*" />
+          <option name="PATTERN" value="com.Interview.Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfDigitsInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewTasksMuhtar.String.SumOfDigitsInAString" />
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Interview.TestPackage.TestClass" />
       <module name="JavaCodingTasks2020Interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Interview.InterviewTasksMuhtar.String.*" />
+          <option name="PATTERN" value="com.Interview.TestPackage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,19 +106,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SumOfDigitsInAString" />
-      <item itemvalue="Application.FrequencyOfChar" />
-      <item itemvalue="Application.Palindrome" />
-      <item itemvalue="Application.PalindromeTask" />
       <item itemvalue="Application.Check_Presence_Of_A_Number_in_AnArray" />
+      <item itemvalue="Application.TestClass" />
+      <item itemvalue="Application.FrequencyOfChar_In_A_String" />
+      <item itemvalue="Application.FizzBuzz" />
+      <item itemvalue="Application.HashMap_Examples" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashMap_Examples" />
+        <item itemvalue="Application.FizzBuzz" />
+        <item itemvalue="Application.FrequencyOfChar_In_A_String" />
+        <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.Check_Presence_Of_A_Number_in_AnArray" />
-        <item itemvalue="Application.PalindromeTask" />
-        <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.FrequencyOfChar" />
-        <item itemvalue="Application.SumOfDigitsInAString" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591289370263</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Some coding tasks added">
+      <created>1591290600216</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591290600216</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -134,65 +155,62 @@
     <option name="LAST_COMMIT_MESSAGE" value="Some coding tasks added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="773" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1584903572394">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="560" y="199" key="#Plugins" timestamp="1591371692357">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="773" y="256" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1584903572394" />
+    <state x="560" y="199" key="#Plugins/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591371692357" />
+    <state x="678" y="294" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591371651278">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="678" y="294" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591371651278" />
     <state x="698" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587402652026">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="698" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1174.1080.1440.900/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1587402652026" />
-    <state x="2449" y="115" key="CommitChangelistDialog2" timestamp="1591289370064">
+    <state x="2449" y="115" key="CommitChangelistDialog2" timestamp="1591290600107">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2449" y="115" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591289370064" />
-    <state width="1878" height="200" key="GridCell.Tab.0.bottom" timestamp="1591289300426">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="2449" y="115" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591290600107" />
+    <state width="1878" height="200" key="GridCell.Tab.0.bottom" timestamp="1593812876623">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1878" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1593812876623" />
+    <state width="1878" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592850374726" />
     <state width="1878" height="195" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650456" />
-    <state width="1878" height="200" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591289300426" />
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1584586720065" />
+    <state width="1878" height="200" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973097" />
     <state width="1144" height="195" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591110296783" />
-    <state width="1878" height="200" key="GridCell.Tab.0.center" timestamp="1591289300425">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="200" key="GridCell.Tab.0.center" timestamp="1593812876622">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1878" height="200" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1593812876622" />
+    <state width="1878" height="200" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592850374725" />
     <state width="1878" height="195" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650455" />
-    <state width="1878" height="200" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591289300425" />
-    <state width="1878" height="304" key="GridCell.Tab.0.center/1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1584586720064" />
+    <state width="1878" height="200" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973094" />
     <state width="1144" height="195" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591110296783" />
-    <state width="1878" height="200" key="GridCell.Tab.0.left" timestamp="1591289300424">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="200" key="GridCell.Tab.0.left" timestamp="1593812876622">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1878" height="200" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1593812876622" />
+    <state width="1878" height="200" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592850374724" />
     <state width="1878" height="195" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650454" />
-    <state width="1878" height="200" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591289300424" />
-    <state width="1878" height="304" key="GridCell.Tab.0.left/1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1584586720063" />
+    <state width="1878" height="200" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973091" />
     <state width="1144" height="195" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591110296783" />
-    <state width="1878" height="200" key="GridCell.Tab.0.right" timestamp="1591289300425">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="200" key="GridCell.Tab.0.right" timestamp="1593812876623">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1878" height="200" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1593812876623" />
+    <state width="1878" height="200" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592850374726" />
     <state width="1878" height="195" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650455" />
-    <state width="1878" height="200" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591289300425" />
-    <state width="1878" height="304" key="GridCell.Tab.0.right/1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1584586720065" />
+    <state width="1878" height="200" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973096" />
     <state width="1144" height="195" key="GridCell.Tab.0.right/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591110296783" />
-    <state x="469" y="179" key="SettingsEditor" timestamp="1584580034613">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="469" y="179" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1584580034613" />
-    <state x="2480" y="280" key="Vcs.Push.Dialog.v2" timestamp="1591289376466">
+    <state x="2480" y="280" key="Vcs.Push.Dialog.v2" timestamp="1591290604686">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2480" y="280" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591289376466" />
-    <state x="653" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1584635057498">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="2480" y="280" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591290604686" />
+    <state x="2136" y="208" key="new project wizard" timestamp="1591294171410">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="653" y="384" key="com.intellij.ide.util.TipDialog/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1584635057498" />
-    <state x="216" y="227" key="new project wizard" timestamp="1587740316121">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
+    <state x="2136" y="208" key="new project wizard/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591294171410" />
     <state x="216" y="227" key="new project wizard/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1587740316121" />
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1584579955201">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1584579955201" />
   </component>
 </project>
