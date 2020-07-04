@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b4e395e-3876-4f39-81eb-007543a2409a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Interview/Collections/HashMap_Hands_on_Paractice_in_TextFile.txt" afterDir="false" />
+    <list default="true" id="9b4e395e-3876-4f39-81eb-007543a2409a" name="Default Changelist" comment="&quot;Traverse through a HashMap in Java&quot; method are added">
+      <change afterPath="$PROJECT_DIR$/src/com/Interview/Collections/FizzBuzz_Ternary_HashMap_ReturnMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Interview/Collections/HashMap_Hands_on_Paractice_in_TextFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Interview/Collections/HashMap_Hands_on_Paractice_in_TextFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Interview/InterviewOghlan/Check_Presence_Of_A_Number_in_AnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Interview/InterviewOghlan/Check_Presence_Of_A_Number_in_AnArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +35,26 @@
       <recent name="com.Interview.InterviewTasksMuhtar.Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FizzBuzz_SyntaxPractice">
+  <component name="RunManager" selected="Application.Check_Presence_Of_A_Number_in_AnArray">
+    <configuration name="Check_Presence_Of_A_Number_in_AnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewOghlan.Check_Presence_Of_A_Number_in_AnArray" />
+      <module name="JavaCodingTasks2020Interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Interview.InterviewOghlan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewOghlan.FizzBuzz" />
       <module name="JavaCodingTasks2020Interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Interview.InterviewOghlan.*" />
+          <option name="PATTERN" value="com.Interview.Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -48,11 +63,11 @@
       </method>
     </configuration>
     <configuration name="FizzBuzz_SyntaxPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewOghlan.FizzBuzz_SyntaxPractice" />
+      <option name="MAIN_CLASS_NAME" value="com.Interview.Collections.FizzBuzz_SyntaxPractice" />
       <module name="JavaCodingTasks2020Interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Interview.InterviewOghlan.*" />
+          <option name="PATTERN" value="com.Interview.Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrequencyOfChar_In_A_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.JavaCodingTasksT.FrequencyOfChar_In_A_String" />
+    <configuration name="FizzBuzz_Ternary_HashMap_ReturnMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Interview.Collections.FizzBuzz_Ternary_HashMap_ReturnMethod" />
       <module name="JavaCodingTasks2020Interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.JavaCodingTasksT.*" />
+          <option name="PATTERN" value="com.Interview.Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,33 +101,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Interview.TestPackage.TestClass" />
-      <module name="JavaCodingTasks2020Interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Interview.TestPackage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.TestClass" />
-      <item itemvalue="Application.FrequencyOfChar_In_A_String" />
       <item itemvalue="Application.FizzBuzz" />
       <item itemvalue="Application.HashMap_Examples" />
       <item itemvalue="Application.FizzBuzz_SyntaxPractice" />
+      <item itemvalue="Application.FizzBuzz_Ternary_HashMap_ReturnMethod" />
+      <item itemvalue="Application.Check_Presence_Of_A_Number_in_AnArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Check_Presence_Of_A_Number_in_AnArray" />
+        <item itemvalue="Application.FizzBuzz_Ternary_HashMap_ReturnMethod" />
         <item itemvalue="Application.FizzBuzz_SyntaxPractice" />
         <item itemvalue="Application.HashMap_Examples" />
         <item itemvalue="Application.FizzBuzz" />
-        <item itemvalue="Application.FrequencyOfChar_In_A_String" />
-        <item itemvalue="Application.TestClass" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593813754425</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;Traverse through a HashMap in Java&quot; method are added">
+      <created>1593824497342</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593824497342</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -169,39 +178,39 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="698" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1174.1080.1440.900/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1587402652026" />
-    <state x="529" y="115" key="CommitChangelistDialog2" timestamp="1593813754247">
+    <state x="529" y="115" key="CommitChangelistDialog2" timestamp="1593824511912">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="529" y="115" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1593813754247" />
+    <state x="529" y="115" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1593824511912" />
     <state x="2449" y="115" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591290600107" />
-    <state width="1878" height="200" key="GridCell.Tab.0.bottom" timestamp="1593824025770">
+    <state width="1878" height="200" key="GridCell.Tab.0.bottom" timestamp="1593860200308">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1593824025770" />
+    <state width="1878" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1593860200308" />
     <state width="1878" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592850374726" />
     <state width="1878" height="195" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650456" />
     <state width="1878" height="200" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973097" />
     <state width="1144" height="195" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591110296783" />
-    <state width="1878" height="200" key="GridCell.Tab.0.center" timestamp="1593824025768">
+    <state width="1878" height="200" key="GridCell.Tab.0.center" timestamp="1593860200307">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="200" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1593824025768" />
+    <state width="1878" height="200" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1593860200307" />
     <state width="1878" height="200" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592850374725" />
     <state width="1878" height="195" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650455" />
     <state width="1878" height="200" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973094" />
     <state width="1144" height="195" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591110296783" />
-    <state width="1878" height="200" key="GridCell.Tab.0.left" timestamp="1593824025767">
+    <state width="1878" height="200" key="GridCell.Tab.0.left" timestamp="1593860200306">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="200" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1593824025767" />
+    <state width="1878" height="200" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1593860200306" />
     <state width="1878" height="200" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592850374724" />
     <state width="1878" height="195" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650454" />
     <state width="1878" height="200" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973091" />
     <state width="1144" height="195" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591110296783" />
-    <state width="1878" height="200" key="GridCell.Tab.0.right" timestamp="1593824025769">
+    <state width="1878" height="200" key="GridCell.Tab.0.right" timestamp="1593860200308">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="200" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1593824025769" />
+    <state width="1878" height="200" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1593860200308" />
     <state width="1878" height="200" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592850374726" />
     <state width="1878" height="195" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650455" />
     <state width="1878" height="200" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973096" />

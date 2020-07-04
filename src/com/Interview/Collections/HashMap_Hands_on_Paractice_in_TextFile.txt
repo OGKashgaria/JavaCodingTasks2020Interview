@@ -29,3 +29,33 @@ static String fizzBuzz1(int num){
 }
 }
 }
+
+public class FizzBuzz(){
+
+
+public static void main(String[] args){
+int num = 30;
+fizzBuzz(int num);
+}
+
+}
+
+static void fizzBuzz(int num){
+HashMap<Integer, String> map = new Hashmap<Integer, String>();
+
+    int i= 0;
+    while(i<=0){
+    map.put(i, (i%3==0 && i%5==0) ? "FizzBuzz \n" : (i%3==0) ? "Fizz \n" : (i%5==0) ? "Buzz \n" : i + " \n";
+        }
+    map.forEach((k,v) -> System.out.println(K + " : " + v));
+
+    /*
+
+    for(Map.Entry each : map.entrySet()){
+    System.out.println(each.getKey + " : " + each.getValue);
+    }
+
+    */
+    }
+
+}

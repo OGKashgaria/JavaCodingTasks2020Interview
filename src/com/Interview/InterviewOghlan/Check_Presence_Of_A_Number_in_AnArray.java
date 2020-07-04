@@ -41,7 +41,7 @@ public class Check_Presence_Of_A_Number_in_AnArray {
 
     public static void main(String[] args) {
         int[] ints = {-9, 0, 10, 20, 30};
-        System.out.println(exists1(ints, 0));
+        System.out.println(exists(ints, 0));
 
 
     }
