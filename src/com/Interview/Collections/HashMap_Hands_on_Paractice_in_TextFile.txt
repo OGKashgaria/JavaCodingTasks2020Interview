@@ -1,0 +1,31 @@
+ /*
+    Numbers -- FizzBuzz
+    Write a method which prints out the numbers from 1 to 30
+    but for numbers which are a multiple of 3,
+    print "Fizz" instead of the number and for numbers
+    which are a multiple of 5, print "Buzz"
+    instead of the number.
+    for numbers which are a multiple of both 3 and 5,
+    print "FizzBuzz" instead of the number.
+
+*/
+
+public class FizzBuzz{
+
+
+//method1
+static String fizzBuzz1(int num){
+ String result = "";
+  for(int i = 1; i<=num; i++){
+  if(num%3=0 && num%5=0)
+  return "FizzBuzz";
+
+  else if(num%3=0)
+         return "FizzBuzz";
+  else if(num%5=0)
+         return "Buzz";
+  else
+        return num;
+}
+}
+}
