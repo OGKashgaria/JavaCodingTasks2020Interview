@@ -2,28 +2,19 @@ package com.Interview.InterviewTasksMuhtar.String;
 
 public class PalindromeTask {
 
-    static String palindromeString(String originString) {
-        // Pointers pointing to the beginning
-        // and the end of the string
+    static String palindromeString1(String originString) {
          originString =originString.toLowerCase();// If String is "Level" , make it lower case
         String result = "", reserveResult ="";
         int i = 0, j = originString.length() - 1;
-        // While there are characters toc compare
         while (i <= j) {
-
-            // If there is a mismatch
-       // level
             if (originString.charAt(i) == originString.charAt(j)) {
                 result += "" + originString.charAt(i);
-
             }
-            // Increment first pointer and
-            // decrement the other
             i++;
             j--;
         }
 
-        if (originString.length()%2==0) {
+        if (originString.length()%2==0) {//"originString.length()%2==0", the method is to check : "levvel or level";
             for (int k = result.length() - 1; k >= 0; k--) {
                 reserveResult += "" + result.charAt(k);
             }
@@ -39,9 +30,20 @@ public class PalindromeTask {
         return result + reserveResult;
     }
 
+
+    static String palindromeString2(String originString){
+        if (originString == null)
+            return "is a empty string!";
+        StringBuilder stringBuilder = new StringBuilder(originString);
+        return stringBuilder.reverse().toString();
+
+
+    }
+
     public static void main(String[] args) {
-        String originString= "Levvel";
-        String palindromeString = palindromeString(originString);
+        String originString= "Level";
+        //String palindromeString = palindromeString1(originString);
+        String palindromeString = palindromeString2(originString);
 
         if(palindromeString.equalsIgnoreCase(originString))
             System.out.println(true);
@@ -50,5 +52,7 @@ public class PalindromeTask {
         System.out.println( "Origin String is: " + originString + ";");
         System.out.println( "After checking is palindrome or not, the String is: " + palindromeString + ";");
     }
+
+
 }
 

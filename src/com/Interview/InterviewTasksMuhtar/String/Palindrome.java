@@ -19,7 +19,7 @@ public class Palindrome {
 
     // Function that returns true if
     // str is a palindrome
-    static boolean isPalindrome(String str) {
+    static boolean isPalindrome1(String str) {
 
         // Pointers pointing to the beginning
         // and the end of the string
@@ -41,12 +41,20 @@ public class Palindrome {
         // Given string is a palindrome
         return true;
     }
+    static boolean isPalindrome2(String str){
+        if (str == null)
+            return false;
+        StringBuilder stringBuilder = new StringBuilder(str);
+        return stringBuilder.reverse().toString().equalsIgnoreCase(str);
+
+
+    }
 
     // Driver code
     public static void main(String[] args) {
-        String str = "level";
+        String str = "Level";
 
-        if (isPalindrome(str))
+        if (isPalindrome2(str))
             System.out.print("Yes");
         else
             System.out.print("No");

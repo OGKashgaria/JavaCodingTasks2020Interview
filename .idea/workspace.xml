@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b4e395e-3876-4f39-81eb-007543a2409a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Interview/Collections/PracticeClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Numbers/Add_A_Number_To_A_Specific_Position.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCodingTasks2020Interview/com/Interview/InterviewTasksMuhtar/Numbers/FINRA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCodingTasks2020Interview/com/Interview/InterviewTasksMuhtar/Numbers/FINRA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCodingTasks2020Interview/com/Interview/InterviewTasksMuhtar/Numbers/FactorialNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCodingTasks2020Interview/com/Interview/InterviewTasksMuhtar/Numbers/FactorialNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Interview/Collections/HashMap_Hands_on_Paractice_in_TextFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Interview/Collections/HashMap_Hands_on_Paractice_in_TextFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Numbers/FINRA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Numbers/FINRA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Numbers/FactorialNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Numbers/FactorialNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCodingTasks2020Interview/com/Interview/InterviewTasksMuhtar/String/PalindromeTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCodingTasks2020Interview/com/Interview/InterviewTasksMuhtar/String/PalindromeTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/String/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/String/Palindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/String/PalindromeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/String/PalindromeTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,20 +35,7 @@
       <recent name="com.Interview.InterviewTasksMuhtar.Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PalindromeTask">
-    <configuration name="Add_A_Number_To_A_Specific_Position" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewTasksMuhtar.Numbers.Add_A_Number_To_A_Specific_Position" />
-      <module name="JavaCodingTasks2020Interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Interview.InterviewTasksMuhtar.Numbers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Palindrome">
     <configuration name="FactorialNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewTasksMuhtar.Numbers.FactorialNumber" />
       <module name="JavaCodingTasks2020Interview" />
@@ -93,6 +75,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewTasksMuhtar.String.Palindrome" />
+      <module name="JavaCodingTasks2020Interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Interview.InterviewTasksMuhtar.String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PalindromeTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewTasksMuhtar.String.PalindromeTask" />
       <module name="JavaCodingTasks2020Interview" />
@@ -107,19 +102,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Add_A_Number_To_A_Specific_Position" />
       <item itemvalue="Application.FactorialNumber" />
       <item itemvalue="Application.FizzBuzz_SyntaxPractice" />
       <item itemvalue="Application.FizzBuzz_Ternary_HashMap_VoidMethod" />
       <item itemvalue="Application.PalindromeTask" />
+      <item itemvalue="Application.Palindrome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.PalindromeTask" />
         <item itemvalue="Application.FizzBuzz_Ternary_HashMap_VoidMethod" />
         <item itemvalue="Application.FizzBuzz_SyntaxPractice" />
         <item itemvalue="Application.FactorialNumber" />
-        <item itemvalue="Application.Add_A_Number_To_A_Specific_Position" />
       </list>
     </recent_temporary>
   </component>
@@ -169,13 +164,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593860534824</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="PalindromeTask class is updated and much more about the HashMap">
+      <created>1594179746492</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594179746492</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Some coding tasks added" />
     <MESSAGE value="&quot;Traverse through a HashMap in Java&quot; method are added" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Traverse through a HashMap in Java&quot; method are added" />
+    <MESSAGE value="PalindromeTask class is updated and much more about the HashMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="PalindromeTask class is updated and much more about the HashMap" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="199" key="#Plugins" timestamp="1591371692357">
@@ -190,39 +193,39 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="698" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1174.1080.1440.900/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1587402652026" />
-    <state x="529" y="115" key="CommitChangelistDialog2" timestamp="1593860534723">
+    <state x="529" y="115" key="CommitChangelistDialog2" timestamp="1594179746319">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="529" y="115" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1593860534723" />
+    <state x="529" y="115" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594179746319" />
     <state x="2449" y="115" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591290600107" />
-    <state width="1878" height="200" key="GridCell.Tab.0.bottom" timestamp="1594179578493">
+    <state width="1878" height="200" key="GridCell.Tab.0.bottom" timestamp="1594180787478">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594179578493" />
+    <state width="1878" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594180787478" />
     <state width="1878" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592850374726" />
     <state width="1878" height="195" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650456" />
     <state width="1878" height="200" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973097" />
     <state width="1144" height="195" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591110296783" />
-    <state width="1878" height="200" key="GridCell.Tab.0.center" timestamp="1594179578492">
+    <state width="1878" height="200" key="GridCell.Tab.0.center" timestamp="1594180787477">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="200" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594179578492" />
+    <state width="1878" height="200" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594180787477" />
     <state width="1878" height="200" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592850374725" />
     <state width="1878" height="195" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650455" />
     <state width="1878" height="200" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973094" />
     <state width="1144" height="195" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591110296783" />
-    <state width="1878" height="200" key="GridCell.Tab.0.left" timestamp="1594179578491">
+    <state width="1878" height="200" key="GridCell.Tab.0.left" timestamp="1594180787476">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="200" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594179578491" />
+    <state width="1878" height="200" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594180787476" />
     <state width="1878" height="200" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592850374724" />
     <state width="1878" height="195" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650454" />
     <state width="1878" height="200" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973091" />
     <state width="1144" height="195" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591110296783" />
-    <state width="1878" height="200" key="GridCell.Tab.0.right" timestamp="1594179578493">
+    <state width="1878" height="200" key="GridCell.Tab.0.right" timestamp="1594180787477">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="200" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594179578493" />
+    <state width="1878" height="200" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594180787477" />
     <state width="1878" height="200" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1592850374726" />
     <state width="1878" height="195" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650455" />
     <state width="1878" height="200" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973096" />
@@ -243,10 +246,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="145" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1593980827290" />
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1593860539578">
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1594179749106">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1593860539578" />
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594179749106" />
     <state x="2480" y="280" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591290604686" />
     <state x="2136" y="208" key="new project wizard" timestamp="1591294171410">
       <screen x="1920" y="0" width="1920" height="1080" />
