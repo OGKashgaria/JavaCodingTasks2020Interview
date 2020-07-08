@@ -74,35 +74,36 @@ public class FINRA {
 
    // Solution 3:
 
-    public static void FINRA3() {
+    public static void FINRA3(int num) {
 
-        String[] myarr= new String[30];
+        //created a empty string array, size with num
+        String[] myArr= new String[num];
+        //created a for loop to store the num to myArr by loop through as list of strings
+        for( int i=0; i <= num-1; i++ )
+            //i started with 0, because array's index starts with 0
+            myArr[i] = ""+(i+1);
+        // (i+1) is an integer, by concatenating with empty string, converted to string
+
+        //with another for loop,retrieving array elements from array, like, myArr[j]
+        //Integer.valueOf(myArr[j]), then using Integer.valueOf() method, converting string to integer
+        for(int j=0; j<myArr.length; j++)
+
+            if(Integer.valueOf(myArr[j])%3==0 && Integer.valueOf(myArr[j]) %5==0)
+                //replace the value of myArr[j] to "FINRA"
+                myArr[j]="FINRA";
+
+            else if (Integer.valueOf(myArr[j])%3==0)
+                //replace the value of myArr[j] to "FIN"
+                myArr[j]="FIN";
+
+            else if (Integer.valueOf(myArr[j])%5==0)
+                //replace the value of myArr[j] to "RA"
+                myArr[j]="RA";
 
 
 
-        for( int i=0; i <= 29; i++ )
-
-            myarr[i] = ""+(i+1);
-
-
-
-        for(int j=0; j<myarr.length; j++)
-
-            if(Integer.valueOf(myarr[j])%3==0 && new Integer(myarr[j])%5==0)
-
-                myarr[j]="FINRA";
-
-            else if (Integer.valueOf(myarr[j])%3==0)
-
-                myarr[j]="FIN";
-
-            else if (Integer.valueOf(myarr[j])%5==0)
-
-                myarr[j]="RA";
-
-
-
-        System.out.println(Arrays.toString(myarr));
+            //Arrays.toString(myArr) --> converts myArr to String
+        System.out.println(Arrays.toString(myArr));
 
     }
 

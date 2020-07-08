@@ -59,3 +59,45 @@ HashMap<Integer, String> map = new Hashmap<Integer, String>();
     }
 
 }
+
+
+public class FizzBuzz{
+
+
+public static void main(String[] args){
+
+}
+
+static String fizzBuzz(int num){
+
+}
+
+static HashMap<Integer, String> fizzBuzzMap(int num, String result){
+
+}
+
+static void printHashMap_withForEachLoop(HashMap<Integer, String> maps){
+maps.forEach((k,v) -> System.out.print(k + " : " + v);
+}
+
+static void printMap(HashMap<Integer, String> maps){
+for(Map.Entry each : maps.entrySet){
+System.out.println(each.getKey() + each.getValue());
+}
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
