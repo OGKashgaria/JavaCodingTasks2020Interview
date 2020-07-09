@@ -23,9 +23,6 @@ public class FindMax {
             if(each > max)
 
                 max = each;
-
-
-
         return max;
 
     }
