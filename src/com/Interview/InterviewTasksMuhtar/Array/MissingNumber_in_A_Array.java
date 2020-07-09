@@ -5,6 +5,7 @@ public class MissingNumber_in_A_Array {
     public static void main(String[] args) {
         //assume the array is sorted in ascending order
         int[] arr= {1,2,3,5};
+        //int[] arr= {-2,0,1,2,4,3,5};
         System.out.println(missingNum(arr));
     }
 
@@ -15,6 +16,9 @@ public class MissingNumber_in_A_Array {
             sum1 += arr[i];
         }
 
+        //if the array is including negative sequence
+        //int[] arr= {-2,0,1,2,4,3,5};
+        //for (j=-2; j<=arr[arr.length-1];j++){
         for (j=0; j<=arr[arr.length-1];j++){
             sum2 += j;
         }
