@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b4e395e-3876-4f39-81eb-007543a2409a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Numbers/CountDigits_Of_A_Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Numbers/PalindromeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Array/MissingNumber_in_A_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Array/MissingNumber_in_A_Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Numbers/CountDigits_Of_A_Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Numbers/CountDigits_Of_A_Number.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594263592395</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="CountDigits_Of_A_Number&#10;and &#10;PalindromeNumber&#10;&#10;classes were added">
+      <created>1594297899702</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1594297899702</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -215,7 +219,8 @@
     <MESSAGE value="&quot;Traverse through a HashMap in Java&quot; method are added" />
     <MESSAGE value="PalindromeTask class is updated and much more about the HashMap" />
     <MESSAGE value="class MissingNumber_in_A_Array is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="class MissingNumber_in_A_Array is added" />
+    <MESSAGE value="CountDigits_Of_A_Number&#10;and &#10;PalindromeNumber&#10;&#10;classes were added" />
+    <option name="LAST_COMMIT_MESSAGE" value="CountDigits_Of_A_Number&#10;and &#10;PalindromeNumber&#10;&#10;classes were added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="199" key="#Plugins" timestamp="1591371692357">
@@ -230,39 +235,39 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="698" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1174.1080.1440.900/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1587402652026" />
-    <state x="529" y="115" key="CommitChangelistDialog2" timestamp="1594263592263">
+    <state x="1026" y="164" key="CommitChangelistDialog2" timestamp="1594297899595">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="529" y="115" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594263592263" />
+    <state x="1026" y="164" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594297899595" />
     <state x="2449" y="115" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591290600107" />
-    <state width="1878" height="150" key="GridCell.Tab.0.bottom" timestamp="1594297159618">
+    <state width="1878" height="150" key="GridCell.Tab.0.bottom" timestamp="1594297785436">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="150" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594297159618" />
+    <state width="1878" height="150" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594297785436" />
     <state width="1878" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594240278782" />
     <state width="1878" height="195" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650456" />
     <state width="1878" height="200" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973097" />
     <state width="1144" height="195" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591110296783" />
-    <state width="1878" height="150" key="GridCell.Tab.0.center" timestamp="1594297159617">
+    <state width="1878" height="150" key="GridCell.Tab.0.center" timestamp="1594297785435">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="150" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594297159617" />
+    <state width="1878" height="150" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594297785435" />
     <state width="1878" height="202" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594240278781" />
     <state width="1878" height="195" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650455" />
     <state width="1878" height="200" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973094" />
     <state width="1144" height="195" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591110296783" />
-    <state width="1878" height="150" key="GridCell.Tab.0.left" timestamp="1594297159616">
+    <state width="1878" height="150" key="GridCell.Tab.0.left" timestamp="1594297785434">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="150" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594297159616" />
+    <state width="1878" height="150" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594297785434" />
     <state width="1878" height="202" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594240278780" />
     <state width="1878" height="195" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650454" />
     <state width="1878" height="200" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973091" />
     <state width="1144" height="195" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591110296783" />
-    <state width="1878" height="150" key="GridCell.Tab.0.right" timestamp="1594297159618">
+    <state width="1878" height="150" key="GridCell.Tab.0.right" timestamp="1594297785435">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="150" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594297159618" />
+    <state width="1878" height="150" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594297785435" />
     <state width="1878" height="202" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594240278781" />
     <state width="1878" height="195" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650455" />
     <state width="1878" height="200" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973096" />
@@ -283,10 +288,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="145" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594224864550" />
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1594263599039">
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1594297903087">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594263599039" />
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594297903087" />
     <state x="2480" y="280" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591290604686" />
     <state x="2136" y="208" key="new project wizard" timestamp="1591294171410">
       <screen x="1920" y="0" width="1920" height="1080" />
