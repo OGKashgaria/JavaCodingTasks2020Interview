@@ -1,4 +1,4 @@
-package com.Interview.InterviewTasksMuhtar.Numbers;
+package com.Interview.InterviewTasksMuhtar.Array;
 
 public class SearchingAnElementFromArray_LinearSearch {
     public static void main(String[] args) {

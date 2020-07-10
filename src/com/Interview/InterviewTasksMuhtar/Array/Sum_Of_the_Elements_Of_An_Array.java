@@ -1,4 +1,4 @@
-package com.Interview.InterviewTasksMuhtar.Numbers;
+package com.Interview.InterviewTasksMuhtar.Array;
 
 public class Sum_Of_the_Elements_Of_An_Array {
 

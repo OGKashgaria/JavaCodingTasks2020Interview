@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b4e395e-3876-4f39-81eb-007543a2409a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Array/CheckArraysEquals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Array/Check_Multi_Dimensional_ArraysEquals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Numbers/SearchingAnElementFromArray_LinearSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Numbers/Sum_Of_the_Elements_Of_An_Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/String/FindDupsFromArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Array/BinarySearch_Ersin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Array/BubbleSorting_Of_Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Array/SearchingAnElementFromArray_BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCodingTasks2020Interview/com/Interview/InterviewTasksMuhtar/Array/FindMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCodingTasks2020Interview/com/Interview/InterviewTasksMuhtar/Array/FindMax.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCodingTasks2020Interview/com/Interview/InterviewTasksMuhtar/Numbers/FibonacciNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Array/FindMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Array/FindMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCodingTasks2020Interview/com/Interview/InterviewTasksMuhtar/ArrayList/RemoveAhmed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/ArrayList/RemoveAhmed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/ArrayList/Remove_AnElement_From_ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Numbers/SearchingAnElementFromArray_LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Array/SearchingAnElementFromArray_LinearSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Numbers/Sum_Of_the_Elements_Of_An_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Array/Sum_Of_the_Elements_Of_An_Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/String/FindDupsFromArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Array/FindDupsFromArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +44,22 @@
       <recent name="com.Interview.InterviewTasksMuhtar.Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SearchingAnElementFromArray_LinearSearch">
-    <configuration name="CheckArraysEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewTasksMuhtar.Array.CheckArraysEquals" />
+  <component name="RunManager" selected="Application.SearchingAnElementFromArray_BinarySearch">
+    <configuration name="BinarySearch_Ersin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewTasksMuhtar.Array.BinarySearch_Ersin" />
+      <module name="JavaCodingTasks2020Interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Interview.InterviewTasksMuhtar.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleSorting_Of_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewTasksMuhtar.Array.BubbleSorting_Of_Array" />
       <module name="JavaCodingTasks2020Interview" />
       <extension name="coverage">
         <pattern>
@@ -59,24 +72,11 @@
       </method>
     </configuration>
     <configuration name="FindDupsFromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewTasksMuhtar.String.FindDupsFromArray" />
+      <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewTasksMuhtar.Array.FindDupsFromArray" />
       <module name="JavaCodingTasks2020Interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Interview.InterviewTasksMuhtar.String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LargestOf3Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewTasksMuhtar.Numbers.LargestOf3Numbers" />
-      <module name="JavaCodingTasks2020Interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Interview.InterviewTasksMuhtar.Numbers.*" />
+          <option name="PATTERN" value="com.Interview.InterviewTasksMuhtar.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchingAnElementFromArray_LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewTasksMuhtar.Numbers.SearchingAnElementFromArray_LinearSearch" />
+    <configuration name="SearchingAnElementFromArray_BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewTasksMuhtar.Array.SearchingAnElementFromArray_BinarySearch" />
       <module name="JavaCodingTasks2020Interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Interview.InterviewTasksMuhtar.Numbers.*" />
+          <option name="PATTERN" value="com.Interview.InterviewTasksMuhtar.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sum_Of_Digits_Of_A_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewTasksMuhtar.Numbers.Sum_Of_Digits_Of_A_Number" />
+    <configuration name="SearchingAnElementFromArray_LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewTasksMuhtar.Array.SearchingAnElementFromArray_LinearSearch" />
       <module name="JavaCodingTasks2020Interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Interview.InterviewTasksMuhtar.Numbers.*" />
+          <option name="PATTERN" value="com.Interview.InterviewTasksMuhtar.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,19 +125,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.PrimeNumber (1)" />
-      <item itemvalue="Application.Sum_Of_Digits_Of_A_Number" />
-      <item itemvalue="Application.LargestOf3Numbers" />
-      <item itemvalue="Application.CheckArraysEquals" />
       <item itemvalue="Application.FindDupsFromArray" />
       <item itemvalue="Application.SearchingAnElementFromArray_LinearSearch" />
+      <item itemvalue="Application.SearchingAnElementFromArray_BinarySearch" />
+      <item itemvalue="Application.BubbleSorting_Of_Array" />
+      <item itemvalue="Application.BinarySearch_Ersin" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchingAnElementFromArray_BinarySearch" />
+        <item itemvalue="Application.BinarySearch_Ersin" />
+        <item itemvalue="Application.BubbleSorting_Of_Array" />
         <item itemvalue="Application.SearchingAnElementFromArray_LinearSearch" />
         <item itemvalue="Application.FindDupsFromArray" />
-        <item itemvalue="Application.CheckArraysEquals" />
-        <item itemvalue="Application.Sum_Of_Digits_Of_A_Number" />
-        <item itemvalue="Application.LargestOf3Numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594313879532</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="SearchingAnElementFromArray_LinearSearch&#10;&#10;class was added">
+      <created>1594335559343</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1594335559343</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -262,7 +269,8 @@
     <MESSAGE value="CountDigits_Of_A_Number&#10;and &#10;PalindromeNumber&#10;&#10;classes were updated" />
     <MESSAGE value="Even_and_Odd_DigitsOf_a_Number&#10;&#10;classes were added" />
     <MESSAGE value="Even_and_Odd_DigitsOf_a_Number&#10;&#10;class was added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Even_and_Odd_DigitsOf_a_Number&#10;&#10;class was added" />
+    <MESSAGE value="SearchingAnElementFromArray_LinearSearch&#10;&#10;class was added" />
+    <option name="LAST_COMMIT_MESSAGE" value="SearchingAnElementFromArray_LinearSearch&#10;&#10;class was added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="180" key="#Plugins" timestamp="1594313750194">
@@ -283,63 +291,63 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="698" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1174.1080.1440.900/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1587402652026" />
-    <state x="1026" y="147" key="CommitChangelistDialog2" timestamp="1594313879374">
+    <state x="1020" y="147" key="CommitChangelistDialog2" timestamp="1594335559179">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1026" y="147" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594313879374" />
+    <state x="1020" y="147" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594335559179" />
     <state x="2449" y="115" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591290600107" />
-    <state width="1878" height="150" key="GridCell.Tab.0.bottom" timestamp="1594325197802">
+    <state width="1878" height="154" key="GridCell.Tab.0.bottom" timestamp="1594346416778">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="150" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594325197802" />
+    <state width="1878" height="154" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594346416778" />
     <state width="1878" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594240278782" />
     <state width="1878" height="195" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650456" />
     <state width="1878" height="200" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973097" />
     <state width="1144" height="195" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591110296783" />
-    <state width="1878" height="150" key="GridCell.Tab.0.center" timestamp="1594325197801">
+    <state width="1878" height="154" key="GridCell.Tab.0.center" timestamp="1594346416777">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="150" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594325197801" />
+    <state width="1878" height="154" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594346416777" />
     <state width="1878" height="202" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594240278781" />
     <state width="1878" height="195" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650455" />
     <state width="1878" height="200" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973094" />
     <state width="1144" height="195" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591110296783" />
-    <state width="1878" height="150" key="GridCell.Tab.0.left" timestamp="1594325197800">
+    <state width="1878" height="154" key="GridCell.Tab.0.left" timestamp="1594346416776">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="150" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594325197800" />
+    <state width="1878" height="154" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594346416776" />
     <state width="1878" height="202" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594240278780" />
     <state width="1878" height="195" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650454" />
     <state width="1878" height="200" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973091" />
     <state width="1144" height="195" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591110296783" />
-    <state width="1878" height="150" key="GridCell.Tab.0.right" timestamp="1594325197801">
+    <state width="1878" height="154" key="GridCell.Tab.0.right" timestamp="1594346416777">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="150" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594325197801" />
+    <state width="1878" height="154" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594346416777" />
     <state width="1878" height="202" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594240278781" />
     <state width="1878" height="195" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650455" />
     <state width="1878" height="200" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973096" />
     <state width="1144" height="195" key="GridCell.Tab.0.right/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591110296783" />
-    <state width="1878" height="145" key="GridCell.Tab.1.bottom" timestamp="1594224864550">
+    <state width="1878" height="145" key="GridCell.Tab.1.bottom" timestamp="1594339022461">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="145" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594224864550" />
-    <state width="1878" height="145" key="GridCell.Tab.1.center" timestamp="1594224864550">
+    <state width="1878" height="145" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594339022461" />
+    <state width="1878" height="145" key="GridCell.Tab.1.center" timestamp="1594339022460">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="145" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594224864550" />
-    <state width="1878" height="145" key="GridCell.Tab.1.left" timestamp="1594224864549">
+    <state width="1878" height="145" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594339022460" />
+    <state width="1878" height="145" key="GridCell.Tab.1.left" timestamp="1594339022459">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="145" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594224864549" />
-    <state width="1878" height="145" key="GridCell.Tab.1.right" timestamp="1594224864550">
+    <state width="1878" height="145" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594339022459" />
+    <state width="1878" height="145" key="GridCell.Tab.1.right" timestamp="1594339022461">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="145" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594224864550" />
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1594313881310">
+    <state width="1878" height="145" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594339022461" />
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1594335560913">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594313881310" />
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594335560913" />
     <state x="2480" y="280" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591290604686" />
     <state x="2136" y="208" key="new project wizard" timestamp="1591294171410">
       <screen x="1920" y="0" width="1920" height="1080" />

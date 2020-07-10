@@ -1,11 +1,8 @@
 package com.Interview.InterviewTasksMuhtar.ArrayList;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.*;
 
-public class RemoveAhmed {
+public class Remove_AnElement_From_ArrayList {
     /*
      ArrayList -- Remove "Ahmed"
     Given a list of people' names: "Ahmed", "John", Eric", "Ahmed".....
@@ -14,15 +11,11 @@ public class RemoveAhmed {
     public static void main(String[] args) {
 
 
-        // Solution 1:
 
-        ArrayList<String> names = new ArrayList<>(Arrays.asList("Ahmed", "John", "Eric", "Ahmed"));
-
-                names.removeAll( Arrays.asList("Ahmed"));
+        String[] arr = {"Ahmed", "John", "Eric", "Ahmed"};
 
 
-
-        System.out.println(names);
+       // System.out.println(names);
 
 
 //
@@ -69,6 +62,16 @@ public class RemoveAhmed {
 //
 //    System.out.println( names );
 
+    }
+
+    // Solution 1:
+    static ArrayList<String> removeAnElement(String arr) {
+        ArrayList<String> names = new ArrayList<>(Arrays.asList(arr));
+        LinkedHashSet<String> setList = new LinkedHashSet<>(Arrays.asList(arr));
+
+        names.removeAll(Arrays.asList("Ahmed"));
+
+        return names;
     }
 
 }

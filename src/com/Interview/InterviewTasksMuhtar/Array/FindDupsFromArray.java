@@ -1,4 +1,4 @@
-package com.Interview.InterviewTasksMuhtar.String;
+package com.Interview.InterviewTasksMuhtar.Array;
 
 import java.util.ArrayList;
 import java.util.Arrays;
