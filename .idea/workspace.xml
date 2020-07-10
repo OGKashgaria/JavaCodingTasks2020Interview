@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b4e395e-3876-4f39-81eb-007543a2409a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Array/FindDupsFromArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/Array/FindDupsFromArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594347355312</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="PassWord Validation with Gherkin Language was updated">
+      <created>1594353103946</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1594353103947</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -271,7 +277,8 @@
     <MESSAGE value="Even_and_Odd_DigitsOf_a_Number&#10;&#10;class was added" />
     <MESSAGE value="SearchingAnElementFromArray_LinearSearch&#10;&#10;class was added" />
     <MESSAGE value="SearchingAnElementFromArray_LinearSearch&#10;&#10;class was Updated &#10;&#10;and Ersin's Binary searching method was added&#10;but still have bugs with duplicated elements" />
-    <option name="LAST_COMMIT_MESSAGE" value="SearchingAnElementFromArray_LinearSearch&#10;&#10;class was Updated &#10;&#10;and Ersin's Binary searching method was added&#10;but still have bugs with duplicated elements" />
+    <MESSAGE value="PassWord Validation with Gherkin Language was updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="PassWord Validation with Gherkin Language was updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="180" key="#Plugins" timestamp="1594313750194">
@@ -292,39 +299,39 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="698" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1174.1080.1440.900/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1587402652026" />
-    <state x="974" y="147" key="CommitChangelistDialog2" timestamp="1594347355180">
+    <state x="974" y="126" key="CommitChangelistDialog2" timestamp="1594353103839">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="974" y="147" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594347355180" />
+    <state x="974" y="126" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594353103839" />
     <state x="2449" y="115" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591290600107" />
-    <state width="1878" height="396" key="GridCell.Tab.0.bottom" timestamp="1594349116837">
+    <state width="1878" height="396" key="GridCell.Tab.0.bottom" timestamp="1594353121018">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="396" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594349116837" />
+    <state width="1878" height="396" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594353121018" />
     <state width="1878" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594240278782" />
     <state width="1878" height="195" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650456" />
     <state width="1878" height="200" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973097" />
     <state width="1144" height="195" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591110296783" />
-    <state width="1878" height="396" key="GridCell.Tab.0.center" timestamp="1594349116835">
+    <state width="1878" height="396" key="GridCell.Tab.0.center" timestamp="1594353121017">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="396" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594349116835" />
+    <state width="1878" height="396" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594353121017" />
     <state width="1878" height="202" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594240278781" />
     <state width="1878" height="195" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650455" />
     <state width="1878" height="200" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973094" />
     <state width="1144" height="195" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591110296783" />
-    <state width="1878" height="396" key="GridCell.Tab.0.left" timestamp="1594349116834">
+    <state width="1878" height="396" key="GridCell.Tab.0.left" timestamp="1594353121016">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="396" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594349116834" />
+    <state width="1878" height="396" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594353121016" />
     <state width="1878" height="202" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594240278780" />
     <state width="1878" height="195" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650454" />
     <state width="1878" height="200" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973091" />
     <state width="1144" height="195" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591110296783" />
-    <state width="1878" height="396" key="GridCell.Tab.0.right" timestamp="1594349116836">
+    <state width="1878" height="396" key="GridCell.Tab.0.right" timestamp="1594353121018">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="396" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594349116836" />
+    <state width="1878" height="396" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594353121018" />
     <state width="1878" height="202" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594240278781" />
     <state width="1878" height="195" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650455" />
     <state width="1878" height="200" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973096" />
@@ -345,10 +352,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="145" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594339022461" />
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1594347357329">
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1594353108876">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594347357329" />
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594353108876" />
     <state x="2480" y="280" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591290604686" />
     <state x="2136" y="208" key="new project wizard" timestamp="1591294171410">
       <screen x="1920" y="0" width="1920" height="1080" />
