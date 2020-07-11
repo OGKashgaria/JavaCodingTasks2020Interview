@@ -130,6 +130,32 @@ public class FrequencyOfChar {
         return result;
     }
 
+//    public static String frequency5(String str) {
+//
+//        String  result="";
+//        for(String each : str.split("")) {
+//            //used for each loop, created temperary variable each
+//            //each takes every single character's of str.split("")
+//            int num = Collections.frequency( Arrays.asList(str.split("") ), ""+each);
+//        }
+//
+//        //"aabbbccDDD"
+//
+//        //remove duplicates first, and store it to new string  nonDup
+//        for(int i=0; i < str.length(); i++)
+//            if(! nonDup.contains(""+str.charAt(i)))
+//                //if nonDup does not contain str.charAt(i) element, add it to nonDup by loop through
+//                nonDup += ""+str.charAt(i);//"abcD"
+//        for(int i=0; i < nonDup.length(); i++) {
+//            //loop through nonDup string
+//            int num = Collections.frequency( Arrays.asList(str.split("") ) ,    ""+nonDup.charAt( i ) );
+//            // use Collections.frequency(), and count its occurrence in the original string str
+//            result += ""+nonDup.charAt(i) + num;
+//            //then add nonDup.charAt(i) to result string with adding its occurrence times next to it
+//        }
+//        return result;
+//    }
+
 
 
 

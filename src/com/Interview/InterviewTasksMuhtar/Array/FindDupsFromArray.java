@@ -1,7 +1,7 @@
 package com.Interview.InterviewTasksMuhtar.Array;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 
@@ -14,7 +14,7 @@ public class FindDupsFromArray {
 
         dupList = checkExistenceOfDupElementsOfArray4(arr);
         for (String each : dupList)
-            System.out.println(each);
+            System.out.println("DupList from arrayList: " + each);
 
     }
 
@@ -71,13 +71,15 @@ public class FindDupsFromArray {
 
 
         for (String each : arr) {
-            setDups.add(each);
-            System.out.println(setDups.add(each));
-//            if (setDups.add(each)==false){
-//                dupList.add(each);
-//            }
+           // setDups.add(each);
+
+            if (setDups.add(each)==false){// at this line unique of array elements already added to HashSet
+                dupList.add(each);// if if there are dup elements, setDups.add(each) this gonna be false and if statement runs
+                // then  dupList.add(each); will adds dup elements to arrayList
+            }
+            //System.out.println("Check successfully added or not to HashSet: " + setDups.add(each));//this should be all false
         }
-        System.out.println(setDups);
+        System.out.println("After added to HashSet(only unique elements were added): "+ setDups);
 
         return dupList;
     }
