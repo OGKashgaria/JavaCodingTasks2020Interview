@@ -8,8 +8,8 @@ import java.util.LinkedHashSet;
 public class FindDupsFromArray {
     static ArrayList<String> dupList;
     public static void main(String[] args) {
-        //String[] arr = {"java", "Selenium","abc","Cucumber","Cucumber","cucumber","java","abc"};
-        String[] arr = {"java", "Selenium","abc","cucumber","java","abc"};
+        String[] arr = {"java", "Selenium","abc","Cucumber","Cucumber","cucumber","java","abc"};
+        //String[] arr = {"java", "Selenium","abc","cucumber","java","abc"};
         //System.out.println(checkExistenceOfDupElementsOfArray1(arr));
 
         dupList = checkExistenceOfDupElementsOfArray4(arr);
@@ -71,9 +71,12 @@ public class FindDupsFromArray {
 
 
         for (String each : arr) {
-           // setDups.add(each);
+//            if (setDups.add(each)==false) {
+//                dupList.add(each);
+//            }
+//            }
 
-            if (setDups.add(each)==false){// at this line unique of array elements already added to HashSet
+            if (setDups.add(each.toLowerCase())==false){// at this line unique of array elements already added to HashSet
                 dupList.add(each);// if if there are dup elements, setDups.add(each) this gonna be false and if statement runs
                 // then  dupList.add(each); will adds dup elements to arrayList
             }

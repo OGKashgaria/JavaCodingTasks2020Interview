@@ -1,0 +1,14 @@
+Java 8 main features
+
+1. Lambda Expression
+
+2. Stream API
+
+3. Functional Interface
+
+Count_Occurrence_Of_Characters_In_A_String
+Count_The_Words_in_A_String
+Remove_White_Space_in_a_String
+Reverse_Each_Words_Of_A_String
+
+SortAnArray_and_RemoveDups
