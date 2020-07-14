@@ -11,7 +11,16 @@ created a method which can accept int[],
 
 public class SortAnArray_and_RemoveDups {
     public static void main(String[] args) {
-        int[] arr2 = {1, 2, 4, 5, 9, 0, 0, 8, 2};
+        Integer[] arr = {1, 2, 4, 5, 9, 0, 0, 8, 2};
+
+        Integer[] arr2 = {1, 2, 4, 5, 9, 0, 0, 8, 2};
+
+        int b = 10;
+
+        Integer a = b;
+        Integer d =9;
+
+        int c = d;
 
         System.out.println(Arrays.toString(orderingAnArrayAndRemovingDups2(arr2)));
     }
@@ -31,9 +40,9 @@ public class SortAnArray_and_RemoveDups {
         }
         return newArr;
     }
-    static Integer[] orderingAnArrayAndRemovingDups2(int[] arr) {
+    static Integer[] orderingAnArrayAndRemovingDups2(Integer[] arr2) {
 
-        TreeSet<Integer> set = new TreeSet(Arrays.asList(arr));
+        TreeSet<Integer> set = new TreeSet(Arrays.asList(arr2));
 
         Integer[] newArr = new Integer[set.size()];
        set.toArray(newArr);
