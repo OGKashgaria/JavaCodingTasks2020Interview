@@ -9,7 +9,7 @@ public class ReadDataFromTextFile {
     static BufferedReader bufferedReader;
 
     public static void main(String[] args) {
-         String filePath = "src/com/Interview/FileReading/data.txt";
+         String filePath = "src/com/Interview/FileReading/dataWriting.txt";
         fileReading3(filePath);
         }
 

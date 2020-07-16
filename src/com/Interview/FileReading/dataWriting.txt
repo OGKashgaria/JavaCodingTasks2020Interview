@@ -1,0 +1,7 @@
+I am writing test text to specific text file.
+By using this approach, we can write text to file,
+and if we don't give the existing txt file's path, this way we can create new file in that directory. 
+
+if there was existing file, and if we give the path of that file,
+ 
+this way we can update the context of the file
