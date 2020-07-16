@@ -59,11 +59,11 @@
       </method>
     </configuration>
     <configuration name="ReadDataFromTextFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Interview.FileReading.ReadDataFromTextFile" />
+      <option name="MAIN_CLASS_NAME" value="com.Interview.FileReading_Writting.ReadDataFromTextFile" />
       <module name="JavaCodingTasks2020Interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Interview.FileReading.*" />
+          <option name="PATTERN" value="com.Interview.FileReading_Writting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +111,11 @@
       </method>
     </configuration>
     <configuration name="WriteDataIntoTextFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Interview.FileReading.WriteDataIntoTextFile" />
+      <option name="MAIN_CLASS_NAME" value="com.Interview.FileReading_Writting.WriteDataIntoTextFile" />
       <module name="JavaCodingTasks2020Interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Interview.FileReading.*" />
+          <option name="PATTERN" value="com.Interview.FileReading_Writting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

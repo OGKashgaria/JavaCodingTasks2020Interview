@@ -1,4 +1,4 @@
-package com.Interview.FileReading;
+package com.Interview.FileReading_Writting;
 
 import java.io.*;
 import java.util.Scanner;
