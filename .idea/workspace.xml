@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b4e395e-3876-4f39-81eb-007543a2409a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/Interview/FileReading/ReadDataFromTextFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Interview/FileReading/data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/String/Reverse_Each_Words_Of_A_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Interview/InterviewTasksMuhtar/String/Reverse_Each_Words_Of_A_String.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
       <recent name="com.Interview.InterviewTasksMuhtar.Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Reverse_Each_Words_Of_A_String">
+  <component name="RunManager" selected="Application.ReadDataFromTextFile">
     <configuration name="PrimeNumber (1)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Interview.PrimeNumberTasks.PrimeNumber" />
       <module name="JavaCodingTasks2020Interview" />
@@ -53,12 +54,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reverse_Each_Words_Of_A_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewTasksMuhtar.String.Reverse_Each_Words_Of_A_String" />
+    <configuration name="ReadDataFromTextFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Interview.FileReading.ReadDataFromTextFile" />
       <module name="JavaCodingTasks2020Interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Interview.InterviewTasksMuhtar.String.*" />
+          <option name="PATTERN" value="com.Interview.FileReading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchingAnElementFromArray_BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewTasksMuhtar.Array.SearchingAnElementFromArray_BinarySearch" />
+    <configuration name="Reverse_Each_Words_Of_A_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Interview.InterviewTasksMuhtar.String.Reverse_Each_Words_Of_A_String" />
       <module name="JavaCodingTasks2020Interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Interview.InterviewTasksMuhtar.Array.*" />
+          <option name="PATTERN" value="com.Interview.InterviewTasksMuhtar.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,18 +122,18 @@
     <list>
       <item itemvalue="Application.PrimeNumber (1)" />
       <item itemvalue="Application.Reverse_Each_Words_Of_A_String" />
-      <item itemvalue="Application.SearchingAnElementFromArray_BinarySearch" />
       <item itemvalue="Application.TestClass" />
       <item itemvalue="Application.SortAnArray_and_RemoveDups" />
       <item itemvalue="Application.Searching_A_Words_Exist_in_A_String_WithLoop" />
+      <item itemvalue="Application.ReadDataFromTextFile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadDataFromTextFile" />
         <item itemvalue="Application.Reverse_Each_Words_Of_A_String" />
         <item itemvalue="Application.Searching_A_Words_Exist_in_A_String_WithLoop" />
         <item itemvalue="Application.SortAnArray_and_RemoveDups" />
         <item itemvalue="Application.TestClass" />
-        <item itemvalue="Application.SearchingAnElementFromArray_BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594853398212</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Reverse_Each_Words_Of_A_String&#10;&#10;classes were updated">
+      <created>1594861806022</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1594861806022</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -327,7 +335,8 @@
     <MESSAGE value="Count_Occurrence_Of_Characters_In_A_String&#10;Count_The_Words_in_A_String&#10;Remove_White_Space_in_a_String&#10;Reverse_Each_Words_Of_A_String&#10;&#10;SortAnArray_and_RemoveDups&#10;&#10;classes were added" />
     <MESSAGE value="Searching_A_Words_Exist_in_A_String_WithLoop&#10;&#10;classes were added" />
     <MESSAGE value="Searching_A_Words_Exist_in_A_String_WithLoop&#10;&#10;classes were updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Searching_A_Words_Exist_in_A_String_WithLoop&#10;&#10;classes were updated" />
+    <MESSAGE value="Reverse_Each_Words_Of_A_String&#10;&#10;classes were updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reverse_Each_Words_Of_A_String&#10;&#10;classes were updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="851" y="410" key="#Notifications" timestamp="1594353687462">
@@ -356,47 +365,47 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="698" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1174.1080.1440.900/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1587402652026" />
-    <state x="974" y="84" key="CommitChangelistDialog2" timestamp="1594853398100">
+    <state x="974" y="84" key="CommitChangelistDialog2" timestamp="1594861805914">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="974" y="84" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594853398100" />
+    <state x="974" y="84" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594861805914" />
     <state x="2449" y="115" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591290600107" />
     <state x="100" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1594397740815">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="100" y="100" width="1720" height="880" key="DiffContextDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594397695605" />
     <state x="100" y="100" width="1720" height="880" key="DiffContextDialog/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1594397740815" />
-    <state width="1878" height="135" key="GridCell.Tab.0.bottom" timestamp="1594861272162">
+    <state width="1878" height="135" key="GridCell.Tab.0.bottom" timestamp="1594864129434">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594861272162" />
+    <state width="1878" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594864129434" />
     <state width="1878" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594240278782" />
     <state width="1878" height="145" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1594762338593" />
     <state width="1878" height="195" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650456" />
     <state width="1878" height="200" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973097" />
     <state width="1144" height="195" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591110296783" />
-    <state width="1878" height="135" key="GridCell.Tab.0.center" timestamp="1594861272159">
+    <state width="1878" height="135" key="GridCell.Tab.0.center" timestamp="1594864129432">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="135" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594861272159" />
+    <state width="1878" height="135" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594864129432" />
     <state width="1878" height="202" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594240278781" />
     <state width="1878" height="145" key="GridCell.Tab.0.center/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1594762338591" />
     <state width="1878" height="195" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650455" />
     <state width="1878" height="200" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973094" />
     <state width="1144" height="195" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591110296783" />
-    <state width="1878" height="135" key="GridCell.Tab.0.left" timestamp="1594861272158">
+    <state width="1878" height="135" key="GridCell.Tab.0.left" timestamp="1594864129431">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="135" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594861272158" />
+    <state width="1878" height="135" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594864129431" />
     <state width="1878" height="202" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594240278780" />
     <state width="1878" height="145" key="GridCell.Tab.0.left/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1594762338591" />
     <state width="1878" height="195" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650454" />
     <state width="1878" height="200" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591301973091" />
     <state width="1144" height="195" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1591110296783" />
-    <state width="1878" height="135" key="GridCell.Tab.0.right" timestamp="1594861272161">
+    <state width="1878" height="135" key="GridCell.Tab.0.right" timestamp="1594864129433">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="135" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594861272161" />
+    <state width="1878" height="135" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594864129433" />
     <state width="1878" height="202" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1594240278781" />
     <state width="1878" height="145" key="GridCell.Tab.0.right/0.23.1920.1057/1920.23.1920.1057@0.23.1920.1057" timestamp="1594762338592" />
     <state width="1878" height="195" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1591030650455" />
@@ -430,10 +439,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="813" y="461" key="VCS.ChangelistChooser/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594353665060" />
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1594841232494">
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1594861807615">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594841232494" />
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1594861807615" />
     <state x="2480" y="280" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1591290604686" />
     <state x="2136" y="208" key="new project wizard" timestamp="1591294171410">
       <screen x="1920" y="0" width="1920" height="1080" />
