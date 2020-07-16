@@ -4,8 +4,12 @@ import java.util.*;
 
 public class UniqueCharacterFromString {
     public static void main(String[] args) {
-
         String str = "accabbcd";
+        uniqueCharactersFromString(str);
+
+    }
+    static void uniqueCharactersFromString(String str){
+
         Map<Character, Integer> unique = new HashMap<>();
 
         for( int j = 0; j < str.length(); j++) {
