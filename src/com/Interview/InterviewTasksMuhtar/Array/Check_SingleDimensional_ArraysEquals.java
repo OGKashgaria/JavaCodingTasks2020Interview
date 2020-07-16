@@ -2,7 +2,7 @@ package com.Interview.InterviewTasksMuhtar.Array;
 
 import java.util.Arrays;
 
-public class CheckArraysEquals {
+public class Check_SingleDimensional_ArraysEquals {
 
 
     public static void main(String[] args) {
