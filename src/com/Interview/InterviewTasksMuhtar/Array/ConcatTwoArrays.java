@@ -20,7 +20,9 @@ public class ConcatTwoArrays {
         //System.out.println(Arrays.toString(concatTwoArrays1(arr1, arr2)));
         //System.out.println(Arrays.toString(concatTwoArrays2(arr3, arr4)));
 
-        System.out.println(Arrays.toString(concatTwoArrays4(arr3, arr4)));
+        //System.out.println(Arrays.toString(concatTwoArrays4(arr3, arr4)));
+
+        System.out.println(Arrays.toString(concatTwoArrays5(arr1, arr2)));
 
     }
 
@@ -62,6 +64,14 @@ public class ConcatTwoArrays {
     //Solution:4
     static <Integer> Object[] concatTwoArrays4(Integer[] arr3 , Integer[] arr4) {
         Object[] newArr = Stream.of(arr3,arr4).flatMap(Stream::of).toArray();
+        return newArr;
+    }
+
+    //Solution:5
+    static int[] concatTwoArrays5(int[] arr1 , int[] arr2) {
+        int[] newArr = new int[arr1.length+ arr2.length];
+        System.arraycopy(arr1,0, newArr,0, arr1.length);
+        System.arraycopy(arr2,0, newArr, arr1.length, arr2.length);
         return newArr;
     }
 }
